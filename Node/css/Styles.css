@@ -1,0 +1,87 @@
+h1 {
+  color: #a31616;
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  text-align: center; }
+
+.Principal__Titulopag {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  text-align: center;
+  width: 70%;
+  /* border: steelblue solid 1px; */
+  height: auto; }
+
+.Principal__LogoIKIGAI {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 10px;
+  float: left;
+  position: relative;
+  width: 20%;
+  /* border: steelblue solid 1px; */
+  height: auto; }
+
+.TextoIKIGAI {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  /* border: steelblue solid 1px; */
+  height: auto; }
+
+p {
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 25px;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 30px; }
+
+h2 {
+  color: #aaa564;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px; }
+
+.GaleriaFotos__Encuadre {
+  justify-items: stretch;
+  align-items: stretch;
+  display: grid;
+  width: 95%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  grid-template-rows: auto auto;
+  justify-content: stretch;
+  grid-row-gap: 20px;
+  padding-left: 40px;
+  padding-top: 30px; }
+
+.GaleriaFotos {
+  position: relative; }
+
+.GaleriaFotos:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url("../Imagenes/fondoparagaleria1.jpg");
+  opacity: 0.5; }
+
+.GaleriaFotos__imagen {
+  align-self: stretch;
+  justify-self: stretch;
+  flex: 1 300px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
