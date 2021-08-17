@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Sesiones de masajes relajantes y descontracturantes">
+    <meta name="keywords"  content="Bienestar, relajarse, Masajes, spa, Neuquen, Bienestar integral, Salon de belleza">
+
+    <title>IKIGAI Masajes spa</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../Node/css/Styles.css" />
+
+    <link rel="stylesheet" href="../Estilos.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Courgette&family=Public+Sans:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <!--Acá va el logo a la izquierda-->
+
+        <div>
+            <img src="../Imagenes/logo.png" alt="Logodeikigai" width="200" height="200"  class="left"/>
+            <h1 class="right">Servicios - Masajes</h1>
+        </div>
+
+        <nav>
+
+            <div class="btn-group">
+                <div class=“topnav”>
+                    <button type="button" class="btn btn-warning"><a href="../Index.html" class="amarillo">IKIGAI</a></button>
+                    <div class="btn-group">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                        <a class="amarillo">Servicios</a>
+                    </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Masajes.html">Masajes</a>
+                            <a class="dropdown-item" href="Reiki.html">Reiki</a>
+                            <a class="dropdown-item" href="Cosmiatria.html">Cosmiatría y Cosmetología</a>
+                            <a class="dropdown-item" href="Tallerdedibujoypintura.html">Taller de Dibujo y Pintura</a></a>
+                            <a class="dropdown-item" href="Flexibilidad.html">Taller de Flexibilidad</a>
+                            <a class="dropdown-item" href="Yoga.html">Yoga</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-warning"><a href="ReservarTurno.html" class="verde">Reservar Turno</a></button>
+                    <button type="button" class="btn btn-warning"><a href="Blog.html" class="verdementa">Blog</a></button>
+                    <button type="button" class="btn btn-warning"><a href="GaleríadeImagenes.html" class="amarverdeillo">Galería de Imagenes</a></button>
+                </div>
+            </div>
+
+        </nav>
+
+        <img src="../Imagenes/fotocentral.jpg" alt="Logodeikigai" class="FotoCentral" width="100%" height="400"/> 
+
+    </header>
+    
+    <main>
+
+
+
+
+        <table class="table">
+            <h2>Nuestros Servicios</h2>
+            <tr>
+                <th>Servicios</th>
+                <th>Descripción</th> <!--Acá se explicaría el Servicio-->
+                <th>Precio</th>
+            </tr>
+            
+            <tr>
+                <td>
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+                        Masajes Cuerpo Completo
+                    </button>
+                    
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                <h4 class="modal-title">Masajes Cuerpo Completo</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                        
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                <p>- Es antiestrés.</p>
+
+                                <p>- Ayuda a mejorar el aspecto de la piel.</p>
+                                    
+                                <p>- Disminuye los dolores al mejorar la circulación de la sangre.</p>
+                                
+                                <p>- Descontractura y relaja los músculos.</p>
+                                
+                                <p>- Reduce la inflamación y mejora la cicatrización de las heridas.</p>
+                                
+                                <p>- Reduce el ritmo cardíaco y disminuye la presión sanguínea. Por ello, la persona experimenta una sensación de calma y tranquilidad.</p>
+                                
+                                <p>-En el sistema digestivo aumentan las secreciones gástricas; mejorando problemas estomacales e intestinales.</p>
+                                </div>
+                        
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>                    
+                </td>
+                <td>...</td> <!--Acá se explicaría el Servicio-->
+                <td>$2000</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+                        Masajes con Piedra Calientes
+                    </button>
+                    
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                <h4 class="modal-title">Masajes con Piedra Calientes</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                        
+                                <!-- Modal body -->
+                                <div class="modal-body">
+
+                                <p>- Mejora las funciones de nuestro organismo, reduce los dolores crónicos especialmente los óseos y musculares.</p>
+                                
+                                <p>- Elimina las toxinas del cuerpo.</p>
+                                
+                                <p>- Ayuda a equilibrar el sistema nervioso y mejora la circulación sanguínea.</p>
+                                
+                                <p>- Nos ayuda a relajarnos, pues mediante el correcto flujo de la energía, armonizamos cuerpo, mente y espíritu, y esto permite reducir notablemente nuestros niveles de estrés.</p>
+                                
+                                <p>- Tiene numerosos efectos estéticos visibles, ya que revitaliza, oxigena e ilumina la piel. 
+                                    Esto es una consecuencia de la mejora de la circulación sanguínea y de la eliminación de toxinas, 
+                                    que contribuyen a reafirmar los tejidos y hacen que la piel tenga un aspecto mucho más terso y saludable.
+                                </p>
+                                
+                                <p>- Muchos aseguran que elimina las malas energías gracias a las propiedades de las piedras volcánicas.</p>
+                                
+                                <p>- Este tipo de terapia está especialmente recomendada en aquellos casos de problemas nerviosos como el estrés, 
+                                    la ansiedad o el insomnio, para los problemas circulatorios, y para aliviar los dolores musculares y articulares, 
+                                    así como en los tratamientos de belleza.</p>
+                            
+                                </div>
+                        
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>                
+                </td> 
+                <td>1,5 hs</td> <!--Acá se explicaría el Servicio-->
+                <td>$2300</td>
+            </tr>
+
+            <tr>
+                <td>
+                    
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+                        Masajes Localizados
+                    </button>
+                    
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                <h4 class="modal-title">Masajes Localizados</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                        
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                Las zonas mas comunes donde se aplica este tipo de masajes son hombros y espalda, cabeza o piernas y pies.
+                                Al igual que otros tipos de masajes, los masajes localizados tienen beneficios para el cuerpo humano a nivel del sistema nervioso, 
+                                a nivel de los órganos internos y a nivel subcutáneo. 
+                                Posee efectos calmantes del color en la parte del cuerpo en la que se aplica el masaje, 
+                                favorece la relajación, tanto física como química, alivia el estrés y la tensión muscular, 
+                                previene la ansiedad o el insomnio, etc.
+                                </div>
+                        
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>    
+                </td> 
+                <td>1 hs</td> <!--Acá se explicaría el Servicio-->
+                <td>$1650</td>
+            </tr>
+
+        </table>
+
+        <!--En la página principal se vería la seccion llamada Ikigai, en la cuál se explicaría de qúe se trata el Centro-->
+    </main>
+
+    <footer id="Degradado">
+        <span class=”iconos-footer”>
+        <span class=”esati-pie-texto”>Siguenos: </span>
+        
+            <a href="https://www.instagram.com/ikigaibienestarintegral/?hl=es" target="_blank" class="breadcrumb-item"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Ikigai-Centro-de-Bienestar-Integral-113060254219563" target="_blank" class="breadcrumb-item"><i class="fab fa-facebook"></i></a>
+
+            <!-- <a href="https://www.instagram.com/ikigaibienestarintegral/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a> -->
+        </span>
+    </footer>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

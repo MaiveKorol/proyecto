@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKIGAI Centro de Bienestar Integral</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../Node/css/Styles.css" />
+
+    <link rel="stylesheet" href="../Estilos.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Courgette&family=Public+Sans:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <!--Acá va el logo a la izquierda-->
+
+        <div class="Principal">
+            <img src="../Imagenes/logo.png" alt="Logodeikigai" width="200" height="200" class="Principal__LogoIKIGAI"/>
+            <h1 class="Principal__Titulopag">Reservar Turno</h1>
+        </div>
+
+        <nav>
+            <div class="btn-group">
+                <div class=“topnav”>
+                    <button type="button" class="btn btn-warning"><a href="../Index.html" class="amarillo">IKIGAI</a></button>
+                    <div class="btn-group">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                        <a class="amarillo">Servicios</a>
+                    </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Masajes.html">Masajes</a>
+                            <a class="dropdown-item" href="Reiki.html">Reiki</a>
+                            <a class="dropdown-item" href="Cosmiatria.html">Cosmiatría y Cosmetología</a>
+                            <a class="dropdown-item" href="Tallerdedibujoypintura.html">Taller de Dibujo y Pintura</a></a>
+                            <a class="dropdown-item" href="Flexibilidad.html">Taller de Flexibilidad</a>
+                            <a class="dropdown-item" href="Yoga.html">Yoga</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-warning"><a href="ReservarTurno.html" class="verde">Reservar Turno</a></button>
+                    <button type="button" class="btn btn-warning"><a href="Blog.html" class="verdementa">Blog</a></button>
+                    <button type="button" class="btn btn-warning"><a href="GaleríadeImagenes.html" class="amarverdeillo">Galería de Imagenes</a></button>
+                </div>
+            </div>
+
+        </nav>
+
+        <img src="../Imagenes/fotocentral.jpg" alt="Logodeikigai" width="100%" height="400"/> 
+
+
+    </header>
+    
+    <main>
+
+        <div class="container">
+        <h2>Reserva tu Turno</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form action="" method="POST" class="CuadrodeReservas">
+
+                        <fieldset class="CuadrodeReservas">
+                            <div class="form-group">
+                                <label for="nombreYapellido">Nombre y Apellido: </label>
+                                    <input type="text" name="nombreYapellido" id="Nombre y Apellido" placeholder="Nombre y Apellido"/>
+                            </div>    
+
+                            <div class="form-group">    
+                                <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+                            </div>
+
+                            <div class="form-group">    
+                                <label for="Teléfono">Teléfono: </label>
+                                    <input type="tel" name="Teléfono" placeholder="2993332233"/>
+                            </div>
+
+                            <div class="form-group">    
+                                <label>Servicios </label>
+                                    <select>
+                                        <option>Masajes</option>
+                                        <option>Dibujo y Pintura</option>
+                                        <option>Cosmiatría y Cosmetología</option>
+                                        <option>Yoga</option>
+                                        <option>Flexibilidad</option>
+                                        <option>Reiki</option>
+                                    </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Consultanos: </label>
+                                <textarea rows="5" cols="100" placeholder="Hola, hacenos tu consulta aquí."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Preferencia Horaria: </label>
+                                <label for="Mañana">Mañana </label>
+                                <input type="checkbox" id="Mañana" required/>
+                                <label for="Tarde">Tarde </label>
+                                <input type="checkbox" id="Tarde" required/>   
+                            </div>
+
+                            <button type="submit" class="btn btn-default">
+                                Ingresar
+                            </button>
+                    </div>
+                </div>
+            </div>
+                
+ 
+        </form>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xs-1"></div>
+                <div class="col-lg-4 col-xs-10">
+                    <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.1994133912535!2d-68.0658413848959!3d-38.94227250722421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a3363bff61c2f%3A0x627428b4b1a14cf9!2sIKIGAI%20Centro%20de%20Bienestar%20Integral!5e0!3m2!1ses-419!2sar!4v1625806421831!5m2!1ses-419!2sar" 
+                    allowfullscreen="" loading="lazy" > 
+                    </iframe>
+                </div>
+                <div class="col-lg-4 col-xs-10"></div>
+            </div>
+        </div>
+
+
+        <!--En la página principal se vería la seccion llamada Ikigai, en la cuál se explicaría de qúe se trata el Centro-->
+    </main>
+
+    <div>
+    
+    <footer id="Degradado">
+        <div class="container">
+            <div class="row">
+                <div class=col-lg-12>
+                    <span class=”iconos-footer”>
+                        <span class=”esati-pie-texto”>Siguenos: </span>
+                            <!-- <h3>ikigaibienestarintegral</h3> -->
+                            <a href="https://www.instagram.com/ikigaibienestarintegral/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/Ikigai-Centro-de-Bienestar-Integral-113060254219563" target="_blank" class="breadcrumb-item"><i class="fab fa-facebook"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--Acá va el contacto y las redes sociales-->
+    </footer>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
